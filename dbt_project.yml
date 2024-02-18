@@ -3,7 +3,7 @@ name: 'jaffle_shop'
 config-version: 2
 version: '0.1'
 
-profile: 'jaffle_shop'
+profile: 'evil_dbt'
 
 model-paths: ["models"]
 seed-paths: ["seeds"]
@@ -20,7 +20,7 @@ clean-targets:
 require-dbt-version: [">=1.0.0", "<2.0.0"]
 
 models:
-  jaffle_shop:
+  evil_dbt:
       materialized: table
       staging:
         materialized: view
